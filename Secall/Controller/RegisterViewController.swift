@@ -48,7 +48,7 @@ class RegisterViewController: UIViewController {
         var currentError:String = ""
         
         if(count(phoneNumber) < 10 || count(phoneNumber) > 11 || phoneNumber.rangeOfString("*") != nil || phoneNumber.rangeOfString("#") != nil || phoneNumber.rangeOfString("+") != nil ){
-            currentError = "Invalid phone number, please try again."
+            currentError = "Invalid phone number, phone number must be from 9 to 32 number"
             currentValid = false
         }else{
             if (count(password) < 6){

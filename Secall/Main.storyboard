@@ -954,7 +954,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vw-g4-eFD">
                                         <rect key="frame" x="48" y="293" width="64" height="64"/>
-                                        <state key="normal" image="ABADC2AD-58CB-4F42-9C61-44348373EE40">
+                                        <state key="normal" image="5EA64593-7D83-4A6C-A0A8-22FB39A8F9F6">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -972,7 +972,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-Y0-xe9">
                                         <rect key="frame" x="206" y="293" width="64" height="64"/>
-                                        <state key="normal" image="F854A11F-01B2-4B4E-8C9C-BEBF19983313">
+                                        <state key="normal" image="8316536E-101A-4812-9E27-CA5058A5F826">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -1448,7 +1448,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ABADC2AD-58CB-4F42-9C61-44348373EE40" width="110" height="110">
+        <image name="5EA64593-7D83-4A6C-A0A8-22FB39A8F9F6" width="110" height="110">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -2325,8 +2325,7 @@ y1bLZctpy3DLeMuFy4rLjMuOy5PLm8uey6PLq8uuy8DLw8vIAAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAA
 AAAAAAAAy8o
 </mutableData>
         </image>
-        <image name="Add User Filled-32" width="32" height="32"/>
-        <image name="F854A11F-01B2-4B4E-8C9C-BEBF19983313" width="110" height="110">
+        <image name="8316536E-101A-4812-9E27-CA5058A5F826" width="110" height="110">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGOzxYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK0HCBEW
 GxwgISksLzU4VSRudWxs1AkKCwwNDg8QViRjbGFzc1xOU0ltYWdlRmxhZ3NWTlNSZXBzV05TQ29sb3KA
@@ -3203,6 +3202,7 @@ y1bLZctpy3DLeMuFy4rLjMuOy5PLm8uey6PLq8uuy8DLw8vIAAAAAAAAAgEAAAAAAAAAPwAAAAAAAAAA
 AAAAAAAAy8o
 </mutableData>
         </image>
+        <image name="Add User Filled-32" width="32" height="32"/>
         <image name="call" width="106" height="106"/>
         <image name="call_dial" width="64" height="64"/>
         <image name="calldecline" width="106" height="106"/>

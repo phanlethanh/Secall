@@ -43,6 +43,11 @@ public class UserService{
                     callback(result: false,error: "This phone number aldready exist.")
                 }
             }
+            if code == "0"{
+                NSOperationQueue.mainQueue().addOperationWithBlock {
+                    callback(result: false,error: "Error from server")
+                }
+            }
         })
         
     }

@@ -80,7 +80,8 @@ class ContactTableViewController: UITableViewController, UISearchBarDelegate, UI
         
         var deleteAction = UITableViewRowAction(style: .Default, title: "Delete") { (action, indexPath) -> Void in
             self.contactService.deleteContact(indexPath.row)
-            self.contacts.removeAtIndex(indexPath.row)
+            //self.contacts.removeAtIndex(indexPath.row)
+            self.contacts = self.contactService.getContacts()
             self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
         }
         deleteAction.backgroundColor = UIColor.redColor()

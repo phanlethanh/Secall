@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>33608B1D-CBDE-4751-AC74-F506E180BEAF</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Secall</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>EB50BCE359B2E8D6B3D528D883E0087371899C6C</key>
 		<string>https://bitbucket.org/ThienThuatCao/final-secall.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Secall.xcodeproj</string>
+	<string>Secall.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>EB50BCE359B2E8D6B3D528D883E0087371899C6C</key>

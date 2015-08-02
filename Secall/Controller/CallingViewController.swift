@@ -176,6 +176,8 @@ class CallingViewController: UIViewController {
         });
     }
     
+    var isSpeaker:Bool = false;
+    
     // Enable/disable speaker
     @IBAction func volumeButtonTabbed(sender: UIButton) {
         dispatch_async(dispatch_get_main_queue(), {
@@ -185,12 +187,14 @@ class CallingViewController: UIViewController {
                 
                 // Enable loud speaker
                 Ringtone.sharedInstance.setAudioToLoudSpeaker()
+                self.isSpeaker = true
             }else{
                 sender.highlighted = false;
                 self.vlIsHighLighted = false
                 
                 // Enable ear speaker
                 Ringtone.sharedInstance.setAudioToEarSpeaker()
+                self.isSpeaker = false;
             }
         });
     }
@@ -207,6 +211,10 @@ class CallingViewController: UIViewController {
 
         Ringtone.sharedInstance.stopRinging()
         Ringtone.sharedInstance.startSoundEndCall()
+        
+        if self.isSpeaker == true {
+            Ringtone.sharedInstance.setAudioToEarSpeaker()
+        }
 
         timer.invalidate()
         var navigationBarAppearace = UINavigationBar.appearance()
